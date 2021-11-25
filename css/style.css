@@ -1,4 +1,9 @@
 
+.wrapper{
+    min-width: 320px;
+    width: 100%;
+    overflow-x: hidden;
+}
 .navbar{
     height: 60px;
     background: #FFFFFF !important;
@@ -98,6 +103,18 @@ position: relative;
     background: #000000;
     transition: .4s ease;
     color: #212A2F;
+}
+.tabs__title{
+    font-family: 'Roboto';
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0.5px;
+text-align: center;
+color: #212A2F;
+margin-top: 138px;
+margin-bottom: 68px;
 }
 .tabs__contant-text{
     font-family: 'Roboto';
