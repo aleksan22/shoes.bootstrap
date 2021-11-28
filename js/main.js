@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.slick').slick({
         mobileFirst: true,
         prevArrow: false,
-        nextArrow: $('.next'),
+        // nextArrow: '<img src="../img/next.png"/>',
         variableWidth: true,
         responsive: [
             {
